@@ -48,7 +48,7 @@ pp message
 
 ### Date format with string interpolation
 
-[Revisit the `Date` lesson](https://learn.firstdraft.com/lessons/72), and find the "Format the Date" graded code block. In the graded code block below, solve that test again, but this time using string interpolation. The tests will check that you did use interpolation, so don't include any `+` operations in your code this time.
+[Revisit the `Date` lesson](https://learn.firstdraft.com/lessons/72-ruby-intro-date), and find the "Format the Date" graded code block. In the graded code block below, solve that test again, but this time using string interpolation. The tests will check that you did use interpolation, so don't include any `+` operations in your code this time.
 
 As a reminder, you should write a program to identify different parts of today's date and print a `String` result. For any given date, the output should be:
 

@@ -46,6 +46,21 @@ pp message
 ```
 {: .repl #string_interpolation_again title="String interpolation, again" points="1"}
 
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+One note about string interpolation: Single quotes (`'`) won’t interpolate your variables. In Ruby, only double quotes (`"`) will interpolate variables.
+
+```ruby
+number = 6
+
+# this will work
+pp "my number is #{number}"
+
+# this will not
+pp 'my number is #{number}'
+```
+</div>
+
 ### Date format with string interpolation
 
 [Revisit the `Date` lesson](https://learn.firstdraft.com/lessons/72-ruby-intro-date), and find the "Format the Date" graded code block. In the graded code block below, solve that test again, but this time using string interpolation. The tests will check that you did use interpolation, so don't include any `+` operations in your code this time.

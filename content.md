@@ -46,8 +46,6 @@ pp message
 ```
 {: .repl #string_interpolation_again title="String interpolation, again" points="1"}
 
-<div class="bg-blue-100 py-1 px-5" markdown="1">
-
 One note about string interpolation: Single quotes (`'`) won’t interpolate your variables. In Ruby, only double quotes (`"`) will interpolate variables.
 
 ```ruby
@@ -59,7 +57,6 @@ pp "my number is #{number}"
 # this will not
 pp 'my number is #{number}'
 ```
-</div>
 
 ### Date format with string interpolation
 
